@@ -29,7 +29,7 @@ main nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 45px 0 0 0;
+    padding-top: 45px;
 }
 
 main nav .logo a {
@@ -62,11 +62,11 @@ main nav ul li a {
     text-transform: capitalize;
 }
 
-main nav .button-one {
+main nav .button {
     transition: .4s;
 }
 
-main nav .button-one a {
+main nav .button a {
     background-color: #f9004d;
     color: #fff;
     padding: 10px 25px;
@@ -76,9 +76,18 @@ main nav .button-one a {
     letter-spacing: 0.75px;
 }
 
-main nav .button-one:hover {
+main nav .button:hover {
     transform: scale(1.2); 
     cursor: pointer;
+}
+
+main nav .menu {
+    cursor: pointer;
+    display: none;
+}
+
+main nav .menu img {
+    filter: invert(1);
 }
 
 main .content-box {
@@ -123,7 +132,6 @@ main .content-box form {
 }
 
 main .content-box form input:first-child {
-    display: inline-block;
     width: 100%;
     padding: 14px 140px 14px 15px;
     border: 2px solid #f9004d;
@@ -134,7 +142,6 @@ main .content-box form input:first-child {
 }
 
 main .content-box form input:last-child {
-    display: inline-block;
     position: absolute;
     top: 6px;
     right: 6px;
@@ -157,6 +164,7 @@ main .content-box form input:last-child {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .about figure {
@@ -242,6 +250,7 @@ main .content-box form input:last-child {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -400,9 +409,9 @@ footer .social-media a:hover {
 footer .copy-right {
     position: absolute;
     bottom: 35px;
-    font-size: 0.9rem;
 }
 
 footer .copy-right span {
     color: #f9004d;
+    font-size: 0.9rem;
 }

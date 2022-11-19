@@ -1,0 +1,180 @@
+@media screen and (max-width: 1250px) {
+
+    main {
+        height: 100vh;
+    }
+
+    .services .card-container {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    main nav .menu {
+        display: block;
+        z-index: 1;
+    }
+
+    main nav {
+        justify-content: space-between;
+        padding: 20px 10px 0 15px;
+    }
+
+    main nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #101010;
+        flex-direction: column;
+        transform: translateX(-100%);
+        transition: .4s ease;
+        z-index: 1;
+    }
+
+    main nav ul.active {
+        transform: translateX(0);
+    }
+
+    main nav ul li a {
+        font-size: 1.4rem;
+    }
+    
+    main nav .button {
+        display: none;
+    }
+
+    .about {
+        gap: 30px;
+    }
+
+    .about .about-content {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    main .content-box {
+        padding: 10px;
+        max-width: 500px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    main .content-box .text h3 {
+        font-size: 1.2rem;
+    }
+
+    main .content-box .text h1 {
+        font-size: 4rem;
+    }
+
+    main .content-box .text h4 {
+        font-size: 1.5rem;
+    }
+
+    main .content-box form {
+        width: 350px;
+    }
+
+    .about figure {
+        max-width: 350px;
+    }
+
+    .about .about-content {
+        padding: 10px;
+    }
+
+    .about .about-content h2 {
+        font-size: 3.5rem;
+    }
+
+    .services .title h2 {
+        font-size: 3.5rem;
+        padding: 0 8px;
+    }
+
+    .services .card-container .card {
+        width: 300px;
+    }
+
+    .services .card-container .card i {
+        font-size: 2rem;
+    }
+
+    .services .card-container .card h5 {
+        font-size: 1.2rem;
+        padding: ;
+    }
+
+    .services .card-container .card button {
+        padding: 10px 20px;
+    }
+
+    .contact-me .content h5 {
+        padding: 10px;
+    }
+
+    footer .content {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    main .content-box form {
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    main .content-box form input:first-child {
+        padding: 14px;
+    }
+
+    main .content-box form input:last-child {
+        position: relative;
+        left: 6px;
+    }
+
+    .about figure {
+        max-width: 250px;
+    }
+
+    .services .title h2 {
+        font-size: 3rem;
+        text-align: center
+    }
+
+    .services .card-container .card {
+        width: 250px;
+    }
+
+    .services .card-container .card i {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .services .card-container .card h5 {
+        font-size: rem;
+        margin-bottom: 15px;
+    }
+
+    .services .card-container .card p {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .services .card-container .card button {
+        padding: 8px 20px;
+    }
+
+    footer .copy-right {
+        bottom: 15px;
+    }
+}
