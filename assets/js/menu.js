@@ -8,11 +8,11 @@ menu.addEventListener("click", () => {
 })
 
 const ImageShow = () => {
-    if(menuImage.getAttribute("src") === "images/open.svg") {
-        menuImage.setAttribute("src", "images/close.svg")
+    if(menuImage.getAttribute("src") === "assets/images/open.svg") {
+        menuImage.setAttribute("src", "assets/images/close.svg")
     }
     else {
-        menuImage.setAttribute("src", "images/open.svg")
+        menuImage.setAttribute("src", "assets/images/open.svg")
     }
 }
 
