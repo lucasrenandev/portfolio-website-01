@@ -1,9 +1,11 @@
 @media screen and (max-width: 1250px) {
 
+    /* ==== MAIN ==== */
     main {
         height: 100vh;
     }
 
+    /* ==== SECTION SERVICES ==== */
     .services .card-container {
         padding: 12px;
     }
@@ -11,6 +13,7 @@
 
 @media screen and (max-width: 1100px) {
 
+    /* ==== MAIN ==== */
     main nav .menu {
         display: block;
         z-index: 1;
@@ -47,6 +50,7 @@
         display: none;
     }
 
+    /* ==== SECTION ABOUT ==== */
     .about {
         gap: 30px;
     }
@@ -55,6 +59,7 @@
         text-align: center;
     }
 
+    /* ==== FOOTER ==== */
     footer .copy-right {
         bottom: 18px;
     }
@@ -62,6 +67,7 @@
 
 @media screen and (max-width: 650px) {
 
+    /* ==== MAIN ==== */
     main .content-box {
         padding: 10px;
         max-width: 500px;
@@ -85,6 +91,7 @@
         width: 350px;
     }
 
+    /* ==== SECTION ABOUT */
     .about figure {
         max-width: 350px;
     }
@@ -97,6 +104,7 @@
         font-size: 3.5rem;
     }
 
+    /* ==== SECTION SERVICES ==== */
     .services .title h2 {
         font-size: 3.5rem;
         padding: 0 8px;
@@ -118,10 +126,12 @@
         padding: 10px 20px;
     }
 
+    /* ==== SECTION CONTACT ME ==== */
     .contact-me .content h5 {
         padding: 10px;
     }
 
+    /* ==== FOOTER ==== */
     footer .content {
         padding: 10px;
     }
@@ -129,6 +139,7 @@
 
 @media screen and (max-width: 380px) {
 
+    /* ==== MAIN ==== */
     main .content-box form {
         width: 90%;
         flex-direction: column;
@@ -145,10 +156,12 @@
         left: 6px;
     }
 
+    /* ==== SECTION ABOUT ==== */
     .about figure {
         max-width: 250px;
     }
 
+    /* ==== SECTION SERVICES ==== */
     .services .title h2 {
         font-size: 3rem;
         text-align: center
@@ -177,6 +190,7 @@
         padding: 8px 20px;
     }
 
+    /* ==== FOOTER ==== */
     footer .copy-right {
         bottom: 15px;
     }
