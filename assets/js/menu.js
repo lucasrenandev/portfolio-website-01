@@ -1,12 +1,15 @@
+// SELECIONANDO ELEMENTOS
 const menu = document.querySelector(".menu")
-const navegation = document.querySelector("nav ul")
 const menuImage = document.querySelector(".menu img")
+const navegation = document.querySelector("nav ul")
 
+// ADICIONANDO EVENTO DE CLIQUE
 menu.addEventListener("click", () => {
     ShowMenu()
     ImageShow()
 })
 
+// FUNÇÃO PARA TROCAR AS IMAGENS
 const ImageShow = () => {
     if(menuImage.getAttribute("src") === "assets/images/open.svg") {
         menuImage.setAttribute("src", "assets/images/close.svg")
@@ -16,6 +19,7 @@ const ImageShow = () => {
     }
 }
 
+// FUNÇÃO PARA ABRIR E FECHAR MENU
 const ShowMenu = () => {
     if(navegation.classList.contains("active")) {
         navegation.classList.remove("active")
