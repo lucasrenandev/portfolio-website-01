@@ -1,10 +1,4 @@
 @media screen and (max-width: 1250px) {
-
-    /* ==== MAIN ==== */
-    main {
-        height: 100vh;
-    }
-
     /* ==== SECTION SERVICES ==== */
     .services .card-container {
         padding: 12px;
@@ -12,41 +6,44 @@
 }
 
 @media screen and (max-width: 1100px) {
-
     /* ==== MAIN ==== */
-    main nav .menu {
+    .menu {
         display: block;
         z-index: 1;
     }
 
-    main nav {
+    main {
+        overflow: hidden;
+    }
+
+    nav {
         justify-content: space-between;
         padding: 20px 10px 0 15px;
     }
 
-    main nav ul {
+    nav ul {
         position: fixed;
         top: 0;
-        left: 0;
-        width: 100%;
-        min-height: 100vh;
+        right: 0;
+        width: 65%;
+        height: 100vh;
         background-color: #101010;
         flex-direction: column;
-        transform: translateX(-100%);
+        transform: translateX(130%);
         transition: .4s ease;
         z-index: 1;
         gap: 40px;
     }
 
-    main nav ul.active {
+    nav ul.active {
         transform: translateX(0);
     }
 
-    main nav ul li a {
+    nav ul li a {
         font-size: 1.5rem;
     }
     
-    main nav .button {
+    .button {
         display: none;
     }
 
@@ -55,7 +52,7 @@
         gap: 30px;
     }
 
-    .about .about-content {
+    .about-content {
         text-align: center;
     }
 
@@ -68,26 +65,26 @@
 @media screen and (max-width: 650px) {
 
     /* ==== MAIN ==== */
-    main .content-box {
+    .content-box {
         padding: 10px;
         max-width: 500px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
-    main .content-box .text h3 {
+    .text h3 {
         font-size: 1.2rem;
     }
 
-    main .content-box .text h1 {
+    .text h1 {
         font-size: 4rem;
     }
 
-    main .content-box .text h4 {
+    .text h4 {
         font-size: 1.5rem;
     }
 
-    main .content-box form {
+    .content-box form {
         width: 350px;
     }
 
@@ -96,11 +93,11 @@
         max-width: 350px;
     }
 
-    .about .about-content {
+    .about-content {
         padding: 10px;
     }
 
-    .about .about-content h2 {
+    .about-content h2 {
         font-size: 3.5rem;
     }
 
@@ -110,19 +107,19 @@
         padding: 0 8px;
     }
 
-    .services .card-container .card {
-        width: 300px;
+    .card {
+        width: 330px;
     }
 
-    .services .card-container .card i {
+    .card i {
         font-size: 2rem;
     }
 
-    .services .card-container .card h5 {
+    .card h5 {
         font-size: 1.2rem;
     }
 
-    .services .card-container .card button {
+    .card button {
         padding: 10px 20px;
     }
 
@@ -140,25 +137,25 @@
 @media screen and (max-width: 380px) {
 
     /* ==== MAIN ==== */
-    main .content-box form {
+    .content-box form {
         width: 90%;
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
     }
 
-    main .content-box form input:first-child {
+    .content-box form input:first-child {
         padding: 14px;
     }
 
-    main .content-box form input:last-child {
+    .content-box form input:last-child {
         position: relative;
         left: 6px;
     }
 
     /* ==== SECTION ABOUT ==== */
     .about figure {
-        max-width: 250px;
+        max-width: 300px;
     }
 
     /* ==== SECTION SERVICES ==== */
@@ -167,26 +164,24 @@
         text-align: center
     }
 
-    .services .card-container .card {
-        width: 250px;
+    .card {
+        width: 280px;
     }
 
-    .services .card-container .card i {
+    .card i {
         font-size: 1.5rem;
         margin-bottom: 15px;
     }
 
-    .services .card-container .card h5 {
-        font-size: 1.2rem;
+    .card h5 {
         margin-bottom: 15px;
     }
 
-    .services .card-container .card p {
-        font-size: 0.9rem;
+    .card p {
         margin-bottom: 15px;
     }
 
-    .services .card-container .card button {
+    .card button {
         padding: 8px 20px;
     }
 

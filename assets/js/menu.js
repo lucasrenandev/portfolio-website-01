@@ -19,7 +19,7 @@ const ImageShow = () => {
     }
 }
 
-// FUNÇÃO PARA ABRIR E FECHAR MENU
+// FUNÇÃO PARA ALTERNAR ENTRE ABRIR E FECHAR MENU
 const ShowMenu = () => {
     if(navegation.classList.contains("active")) {
         navegation.classList.remove("active")
