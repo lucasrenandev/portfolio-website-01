@@ -9,10 +9,6 @@
     text-decoration: none;
 }
 
-body {
-    min-height: 100vh;
-}
-
 /* ==== MAIN ==== */
 main {
     width: 100%;
@@ -23,6 +19,7 @@ main {
     background-size: cover;
 }
 
+/* ==== NAV ==== */
 nav {
     display: flex;
     align-items: center;
@@ -61,7 +58,7 @@ nav ul li a {
 }
 
 .button {
-    transition: .4s;
+    transition: 0.4s ease;
 }
 
 .button a {
@@ -88,6 +85,7 @@ nav ul li a {
     filter: invert(1);
 }
 
+/* ==== MAIN CONTENT BOX ==== */
 .content-box {
     max-width: 580px;
     position: relative;
@@ -102,7 +100,7 @@ nav ul li a {
     font-size: 700;
     letter-spacing: 2px;
     margin-bottom: 20px;
-}
+}   
 
 .content-box .text h1 {
     color: #fff;
@@ -136,7 +134,7 @@ nav ul li a {
     outline: none;
     border-radius: 30px;
     letter-spacing: 0.70px;
-    font-weight: 500;  
+    font-weight: 500;   
 }
 
 .content-box form input:last-child {
@@ -269,7 +267,7 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.services .card-container h5 {
+.services .card-container .card h5 {
     color: #fff;
     font-size: 1.45rem;
     font-weight: 700;
@@ -277,7 +275,7 @@ nav ul li a {
     text-transform: capitalize;
 }
 
-.services .card-container p {
+.services .card-container .card p {
     color: #d2a9d2;
     font-size: 1rem;
     font-weight: 700;
@@ -285,7 +283,7 @@ nav ul li a {
     line-height: 27px;
 }
 
-.services .card-container button {
+.services .card-container .card button {
     background-color: #f9004d;
     color: #fff;
     border: 2px solid transparent;
@@ -297,7 +295,7 @@ nav ul li a {
     letter-spacing: 0.75px;
 }
 
-.services .card-container button:hover {
+.services .card-container .card button:hover {
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
