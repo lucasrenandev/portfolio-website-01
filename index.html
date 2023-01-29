@@ -11,115 +11,112 @@
 </head>
 <body>
     
-    <!-------Main------->
-    <main>
-        <nav>
-            <div class="logo">
-                <a href="#">Portfo<span>lio</span></a>
-            </div><!--end logo-->
+    <!--------------Header--------------->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Portfo<span>lio</span></a>
 
-            <ul>
+            <ul class="nav-list">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#">About us</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+                <li><a href="#">Contact us</a></li>
+            </ul><!--end nav list-->
 
-            <div class="button">
-                <a href="#">Subscribe</a>
-            </div><!--end button-->
+            <a href="#" class="header-button">Subscribe</a>
+            
+            <figure id="menu-icon">
+                <img src="assets/images/menu.svg" alt="Menu">
+            </figure><!--end menu icon-->
+        </nav><!--end navbar-->
 
-            <figure class="menu">
-                <img src="assets/images/open.svg" alt="Menu">
-            </figure><!--end menu-->
-        </nav><!--end nav-->
-
-        <div class="content-box">
-            <div class="text">
-                <h3>Hello, my name is</h3>
+        <main class="header-home">
+            <div class="home-text">
+                <h4>Hello, my name is</h4>
                 <h1>Tahmid <span>Ahmed</span></h1>
-                <h4>I'am a Web Developer</h4>
-            </div><!--end text-->
+                <h3>I'am a Web Developer</h3>
+    
+                <form action="#">
+                    <input type="email" placeholder="Enter your email" autocomplete="none">
+                    <input type="submit" value="Let's start">
+                </form><!--end form-->
+            </div><!--end home text-->
+        </main><!--end header home-->
+    </header><!--end header-->
 
-            <form>
-                <input type="email" name="email" placeholder="Enter your email" autocomplete="off">
-                <input type="submit" name="submit" value="Let's Start">
-            </form><!--end form-->
-        </div><!--end content box-->
-    </main><!--end main-->
-
-    <!--------About section-------->
+    <!--------------About section--------------->
     <section class="about">
-        <figure>
-            <img src="assets/images/main-img.png" alt="Image">
-        </figure><!--end figure-->
+        <figure class="about-image">
+            <img src="assets/images/main-img.png" alt="">
+        </figure><!--end about image-->
 
-        <div class="about-content">
-            <h2>About Me</h2>
-            <h5>Developer & Designer</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tempora sed facilis, molestias quia eum reprehenderit ullam, quo doloremque eveniet recusandae corporis maiores ea itaque dolore cupiditate odio dolor non!</p>
-            <button type="button">Let's Talk</button>
-        </div><!--end about content-->
+        <div class="about-text">
+            <h2>About me</h2>
+            <h3>Developer & Designer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis ratione quod consectetur aspernatur! Magnam amet voluptatum nesciunt ducimus ab eius aut maiores officiis, quam incidunt porro unde voluptate nobis earum minus nostrum. Fuga, porro.</p>
+            <a href="#" class="main-button">Let's talk</a>
+        </div><!--end about text-->
     </section><!--end about section-->
 
-    <!--------Services section-------->
+    <!--------------Services section--------------->
     <section class="services">
-        <div class="title">
-            <h2>Our Services</h2>    
-        </div><!--end title-->
+        <div class="services-text">
+            <h2>Our services</h2>
+        </div><!--end services text-->
 
-        <div class="card-container">
-            <div class="card">
-                <i class="fa-solid fa-bars"></i>
-                <h5>Web Development</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quos voluptatibus quasi velit assumenda eius veniam blanditiis magnam! Iusto ut assumenda quisquam fugiat cum consequatur neque praesentium et asperiores similique!</p>
-                <button type="button">Read More</button>
-            </div><!--end card-->
+        <div class="services-container">
+            <div class="service-box">
+                <i class="fa fa-bars"></i>
+                <h4>Web development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nisi fugiat iste temporibus vero, tempora quam nam possimus modi eligendi repudiandae ipsa similique explicabo rem ut? Officia quo accusantium recusandae?</p>
+                <button type="button" class="main-button">Read more</button>
+            </div><!--end services box-->
 
-            <div class="card">
-                <i class="fa-solid fa-user"></i>
-                <h5>Web Development</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quos voluptatibus quasi velit assumenda eius veniam blanditiis magnam! Iusto ut assumenda quisquam fugiat cum consequatur neque praesentium et asperiores similique!</p>
-                <button type="button">Read More</button>
-            </div><!--end card-->
-            
-            <div class="card">
-                <i class="fa-solid fa-bell"></i>
-                <h5>Web Development</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quos voluptatibus quasi velit assumenda eius veniam blanditiis magnam! Iusto ut assumenda quisquam fugiat cum consequatur neque praesentium et asperiores similique!</p>
-                <button type="button">Read More</button>
-            </div><!--end card-->
-        </div><!--end card container-->
-    </section><!--end services section-->
+            <div class="service-box">
+                <i class="fa fa-user"></i>
+                <h4>Web development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nisi fugiat iste temporibus vero, tempora quam nam possimus modi eligendi repudiandae ipsa similique explicabo rem ut? Officia quo accusantium recusandae?</p>
+                <button type="button" class="main-button">Read more</button>
+            </div><!--end services box-->
 
-    <!--------Contact me section-------->
-    <section class="contact-me">
-        <div class="content">
-            <h5>Let me get you beautiful Website</h5>
-            <button type="button">Hire me</button>
-        </div><!--end content-->
-    </section><!--Contact me section-->
+            <div class="service-box">
+                <i class="fa fa-bell"></i>
+                <h4>Web development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nisi fugiat iste temporibus vero, tempora quam nam possimus modi eligendi repudiandae ipsa similique explicabo rem ut? Officia quo accusantium recusandae?</p>
+                <button type="button" class="main-button">Read more</button>
+            </div><!--end service box-->
+        </div><!--end services container-->
+    </section><!--end services-->
 
-    <!--------Footer-------->
-    <footer>
-        <div class="content">
+    <!--------------Contact me section--------------->
+    <section class="contact">
+        <div class="contact-text">
+            <h5>Let Me Get You Beautiful Website</h5>
+            <button type="button" class="main-button">Hire me</button>
+        </div><!--end contact me section-->
+    </section><!--end contact-->
+
+    <!--------------Social section--------------->
+    <section class="social-section">
+        <div class="social-container">
             <h5>Tahmid Ahmed</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente vel maiores placeat error exercitationem natus, recusandae distinctio harum nobis?</p>
-        </div><!--end content-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cumque ab accusamus impedit voluptate praesentium atque enim expedita rem quisquam.</p>
 
-        <div class="social-media">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-        </div><!--end social media-->
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div><!--end social icons-->
+        </div><!--end social container-->
+    </section><!--end social section-->
 
-        <div class="copy-right">
-            <span>&copy; By Tahmid Ahmed</span>
-        </div><!--end copy right-->
+    <!--------------Footer--------------->
+    <footer>
+        <p>&copy; By Tahmid Ahmed</p>
     </footer><!--end footer-->
 
-    <!--------JavaScript link-------->
+    <!--------------JavaScript link--------------->
     <script src="assets/js/menu.js"></script>
 </body>
 </html>

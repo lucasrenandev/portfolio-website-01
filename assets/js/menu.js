@@ -1,26 +1,26 @@
 // SELECIONANDO ELEMENTOS
-const menu = document.querySelector(".menu")
-const menuImage = document.querySelector(".menu img")
-const navegation = document.querySelector("nav ul")
+const menu = document.querySelector("#menu-icon")
+const menuImage = document.querySelector("#menu-icon img")
+const navegation = document.querySelector(".nav-list")
 
 // ADICIONANDO EVENTO DE CLIQUE
 menu.addEventListener("click", () => {
-    ShowMenu()
+    MenuShow()
     ImageShow()
 })
 
 // FUNÇÃO PARA ALTERNAR AS IMAGENS DO MENU
 const ImageShow = () => {
-    if(menuImage.getAttribute("src") === "assets/images/open.svg") {
+    if(menuImage.getAttribute("src") === "assets/images/menu.svg") {
         menuImage.setAttribute("src", "assets/images/close.svg")
     }
     else {
-        menuImage.setAttribute("src", "assets/images/open.svg")
+        menuImage.setAttribute("src", "assets/images/menu.svg")
     }
 }
 
 // FUNÇÃO PARA ALTERNAR ENTRE ABRIR E FECHAR MENU
-const ShowMenu = () => {
+const MenuShow = () => {
     if(navegation.classList.contains("active")) {
         navegation.classList.remove("active")
     }
