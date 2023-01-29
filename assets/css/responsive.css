@@ -22,7 +22,7 @@
         gap: 0;
         z-index: 1000;
         padding: 0 1rem;
-        transition: all 0.40s ease;
+        transition: all 0.4s ease;
     }
 
     nav ul li {

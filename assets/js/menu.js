@@ -9,7 +9,7 @@ menu.addEventListener("click", () => {
     ImageShow()
 })
 
-// FUNÇÃO PARA ALTERNAR AS IMAGENS
+// FUNÇÃO PARA ALTERNAR AS IMAGENS DO MENU
 const ImageShow = () => {
     if(menuImage.getAttribute("src") === "assets/images/open.svg") {
         menuImage.setAttribute("src", "assets/images/close.svg")

@@ -55,6 +55,11 @@ nav ul li a {
     font-size: 1rem;
     font-weight: 700;
     text-transform: capitalize;
+    transition: all 0.4s ease;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
 }
 
 .button {
@@ -207,7 +212,7 @@ nav ul li a {
     font-size: 1rem;
     font-weight: 700;
     letter-spacing: 0.75px;
-    transition: .4s;
+    transition: 0.4s ease;
 }
 
 .about .about-content button:hover {
@@ -391,7 +396,7 @@ footer .social-media a {
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
-    transition: .4s;
+    transition: all 0.4s ease;
 }
 
 footer .social-media a:hover {
